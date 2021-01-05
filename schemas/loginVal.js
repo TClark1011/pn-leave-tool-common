@@ -1,7 +1,7 @@
-import yup from "yup";
+import { object } from "yup";
 import { employeeNumberVal, passwordVal } from "./commonAuthFields";
 
-export default yup.object({
+export default object({
 	"employee_number": employeeNumberVal.required(
 		"Employee Number is a required field"
 	),
