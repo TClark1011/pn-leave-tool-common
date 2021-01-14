@@ -23,5 +23,8 @@
 	},
 	"dependencies": {
 		"yup": "^0.32.8"
-	}
+	},
+	"files": [
+		"build"
+	]
 }
