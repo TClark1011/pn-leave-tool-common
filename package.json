@@ -1,19 +1,27 @@
 {
-  "name": "pn-leave-tool-validation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TClark1011/pn-leave-tool-validation.git"
-  },
-  "author": "Thomas Clark",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TClark1011/pn-leave-tool-validation/issues"
-  },
-  "homepage": "https://github.com/TClark1011/pn-leave-tool-validation#readme"
+	"name": "pn-leave-tool-validation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "babel src -d build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TClark1011/pn-leave-tool-validation.git"
+	},
+	"author": "Thomas Clark",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TClark1011/pn-leave-tool-validation/issues"
+	},
+	"homepage": "https://github.com/TClark1011/pn-leave-tool-validation#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.12.10",
+		"@babel/core": "^7.12.10",
+		"@babel/preset-env": "^7.12.11"
+	},
+	"dependencies": {
+		"yup": "^0.32.8"
+	}
 }
