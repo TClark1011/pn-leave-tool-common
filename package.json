@@ -1,0 +1,19 @@
+{
+  "name": "pn-leave-tool-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TClark1011/pn-leave-tool-validation.git"
+  },
+  "author": "Thomas Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TClark1011/pn-leave-tool-validation/issues"
+  },
+  "homepage": "https://github.com/TClark1011/pn-leave-tool-validation#readme"
+}
