@@ -13,14 +13,13 @@ export const depotField = string().required("Please select a depot");
 export default object({ file: fileField, depot: depotField });
 
 export const Frontend = object({
-	file: yup
-		.array()
+	file: array()
 		.of(
-			yup.object({
+			object({
 				Name: yup.string().required("Invalid CSV file"),
 			}),
 		)
 		.required("Please upload a file"),
-	access_key: yup.string().required("Please enter an access key"),
-	depot: yup.string().required("Please select a depot"),
+	access_key: string().required("Please enter an access key"),
+	depot: string().required("Please select a depot"),
 });
