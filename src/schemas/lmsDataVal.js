@@ -16,7 +16,7 @@ export const Frontend = object({
 	file: array()
 		.of(
 			object({
-				Name: yup.string().required("Invalid CSV file"),
+				Name: string().required("Invalid CSV file"),
 			}),
 		)
 		.required("Please upload a file"),
