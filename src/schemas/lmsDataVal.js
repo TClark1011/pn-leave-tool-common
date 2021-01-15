@@ -12,14 +12,8 @@ export const depotField = string().required("Please select a depot");
 
 export default object({ file: fileField, depot: depotField });
 
-export const Frontend = object({
-	file: array()
-		.of(
-			object({
-				Name: string().required("Invalid CSV file"),
-			}),
-		)
-		.required("Please upload a file"),
-	access_key: string().required("Please enter an access key"),
-	depot: string().required("Please select a depot"),
+export const lmsDataValFrontend = object({
+	file: fileField,
+	depot: depotField,
+	access_key: string().required("You must enter an access key"),
 });
