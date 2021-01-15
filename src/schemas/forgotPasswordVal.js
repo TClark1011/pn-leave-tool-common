@@ -1,5 +1,8 @@
 import { object, string } from "yup";
+import { employeeNumberVal } from "../commonAuthFields";
 
 export default object({
-	employee_number: string().required("Please enter your employee number"),
+	employee_number: employeeNumberVal.required(
+		"Please enter your employee number",
+	),
 });
