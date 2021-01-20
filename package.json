@@ -35,7 +35,7 @@
 		"build"
 	],
 	"exports": {
-		"./validation": "./build/validation",
+		"./validation": "./build/validation/index.js",
 		"./leaveParams": "./build/leaveParams.js"
 	}
 }
