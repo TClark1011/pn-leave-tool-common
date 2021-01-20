@@ -3,17 +3,17 @@ import { object, date, ref } from "yup";
 import { employeeNumberVal } from "../commonAuthFields";
 
 export default object({
-	user: employeeNumberVal.required("Employee Number is required"),
-	dates: object({
-		start: date().required().min(addWeeks(startOfToday(), 2)),
-		end: date()
+	"user": employeeNumberVal.required("Employee Number is required"),
+	"dates": object({
+		"start": date().required().min(addWeeks(startOfToday(), 2)),
+		"end": date()
 			.required()
 			.test(
 				"ahead of start",
 				"end date must be later than start date",
 				function (value) {
 					return new Date(value) > new Date(this.resolve(ref("start")));
-				},
+				}
 			),
 	}),
 });

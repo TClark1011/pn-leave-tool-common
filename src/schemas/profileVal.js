@@ -8,11 +8,11 @@ import { string, object } from "yup";
  */
 const getProfileVal = (depots) =>
 	object({
-		name: string().required("Name cannot be blank"),
-		depot: string()
+		"name": string().required("Name cannot be blank"),
+		"depot": string()
 			.oneOf(
 				depots.map((item) => item._id),
-				`Selected depot is invalid`,
+				"Selected depot is invalid"
 			)
 			.required("You must select a depot"),
 	});
