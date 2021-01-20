@@ -20,10 +20,13 @@
 	"devDependencies": {
 		"@babel/cli": "^7.12.10",
 		"@babel/core": "^7.12.10",
+		"@babel/node": "^7.12.10",
 		"@babel/preset-env": "^7.12.11",
 		"eslint": "^7.18.0",
 		"prettier": "^2.2.1",
-		"prettier-eslint": "^12.0.0"
+		"prettier-eslint": "^12.0.0",
+		"eslint-plugin-jsdoc": "^30.7.9",
+		"eslint-plugin-prefer-arrow": "^1.2.2"
 	},
 	"dependencies": {
 		"yup": "^0.32.8"
