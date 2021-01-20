@@ -1,6 +1,6 @@
 {
 	"name": "pn-leave-tool-common",
-	"version": "0.5.0",
+	"version": "1.0.0",
 	"description": "The files for yup validation for the Pacific National annual leave tool",
 	"main": "build/index.js",
 	"scripts": {
