@@ -8,14 +8,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/TClark1011/pn-leave-tool-validation.git"
+		"url": "git+https://github.com/TClark1011/pn-leave-tool-common.git"
 	},
 	"author": "Thomas Clark",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/TClark1011/pn-leave-tool-validation/issues"
+		"url": "https://github.com/TClark1011/pn-leave-tool-common/issues"
 	},
-	"homepage": "https://github.com/TClark1011/pn-leave-tool-validation#readme",
+	"homepage": "https://github.com/TClark1011/pn-leave-tool-common#readme",
 	"devDependencies": {
 		"@babel/cli": "^7.12.10",
 		"@babel/core": "^7.12.10",
