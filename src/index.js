@@ -17,5 +17,3 @@ export {
 	resetPasswordVal,
 	getProfileVal,
 };
-
-const a = asfgasfg;
