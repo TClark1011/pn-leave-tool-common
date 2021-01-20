@@ -28,6 +28,7 @@
 		"eslint-plugin-prefer-arrow": "^1.2.2"
 	},
 	"dependencies": {
+		"date-fns": "^2.16.1",
 		"yup": "^0.32.8"
 	},
 	"files": [
