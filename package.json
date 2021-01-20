@@ -33,5 +33,9 @@
 	},
 	"files": [
 		"build"
-	]
+	],
+	"exports": {
+		"./validation": "./build/validation",
+		"./leaveParams": "./build/leaveParams.js"
+	}
 }
