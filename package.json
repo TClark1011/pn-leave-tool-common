@@ -1,6 +1,6 @@
 {
 	"name": "pn-leave-tool-common",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "The common files used in both the backend and frontend of the Pacific National annual leave tool",
 	"main": "build/index.js",
 	"scripts": {
