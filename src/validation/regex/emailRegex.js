@@ -1,2 +1,2 @@
 // export default new RegExp("", "i");
-export default /^[\w-\.]+@([\w-]+\.)+([\w-]{2,4})/;
+export default /[A-z0-9._%+-]+@pacificnational.com/;
