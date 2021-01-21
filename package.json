@@ -34,10 +34,5 @@
 	},
 	"files": [
 		"build"
-	],
-	"exports": {
-		"./": "./build/index.js",
-		"./validation": "./build/validation/index.js",
-		"./leaveParams": "./build/leaveParams.js"
-	}
+	]
 }
