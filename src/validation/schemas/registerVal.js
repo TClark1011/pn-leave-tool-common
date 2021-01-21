@@ -25,5 +25,5 @@ export default object({
 	"depot": string().required("You must select your depot"),
 	"email": string()
 		.required("Please enter a valid email address")
-		.matches(emailRegex, "email address is invalid"),
+		.matches(emailRegex, "Must use a valid Pacific National email address"),
 });
