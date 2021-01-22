@@ -8,6 +8,7 @@ import {
 	forgotPasswordVal,
 	emailRegex,
 	getProfileVal,
+	testingRegisterVal,
 } from "./validation";
 import { leaveLength, leaveStartMinOffset } from "./leaveParams";
 
@@ -23,4 +24,5 @@ export {
 	getProfileVal,
 	leaveLength,
 	leaveStartMinOffset,
+	testingRegisterVal,
 };

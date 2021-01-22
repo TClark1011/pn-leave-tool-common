@@ -1,7 +1,7 @@
 import leaveVal from "./schemas/leaveVal";
 import loginVal from "./schemas/loginVal";
 import lmsDataVal, { lmsDataValFrontend } from "./schemas/lmsDataVal";
-import registerVal from "./schemas/registerVal";
+import registerVal, { testingRegisterVal } from "./schemas/registerVal";
 import resetPasswordVal from "./schemas/resetPasswordVal";
 import forgotPasswordVal from "./schemas/forgotPasswordVal";
 import emailRegex from "./regex/emailRegex";
@@ -17,4 +17,5 @@ export {
 	forgotPasswordVal,
 	resetPasswordVal,
 	getProfileVal,
+	testingRegisterVal,
 };
