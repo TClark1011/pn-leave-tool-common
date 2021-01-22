@@ -33,7 +33,7 @@ const getRegisterVal = (isTesting = false) =>
 		"email": string()
 			.required("Please enter a valid email address")
 			.matches(
-				isTesting ? /.*/ : emailRegex,
+				isTesting ? /(.*?)/ : emailRegex,
 				"Must use a valid Pacific National email address"
 			),
 	});
